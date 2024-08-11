@@ -1,0 +1,59 @@
+.hamburger{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25;
+    -webkit-transition: all 0.25;
+    -moz-transition: all 0.25;
+    -ms-transition: all 0.25;
+    -o-transition: all 0.25;
+    position: relative;
+}
+.hamburger_top,
+.hamburger_middle,
+.hamburger_bottom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+.hamburger_middle {
+ transform: translateY(7px);
+ -webkit-transform: translateY(7px);
+ -moz-transform: translateY(7px);
+ -ms-transform: translateY(7px);
+ -o-transform: translateY(7px);
+}
+.hamburger_bottom{
+    transform: translateY(14px);
+    -webkit-transform: translateY(14px);
+    -moz-transform: translateY(14px);
+    -ms-transform: translateY(14px);
+    -o-transform: translateY(14px);
+}
+.open{
+    transform: rotate(90deg);
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+.open .hamburger_top{
+    transform: rotate(45deg) translateY(6px) translate(6px);
+    -webkit-transform: rotate(45deg) translateY(6px) translate(6px);
+    -moz-transform: rotate(45deg) translateY(6px) translate(6px);
+    -ms-transform: rotate(45deg) translateY(6px) translate(6px);
+    -o-transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .hamburger_middle{
+    display: none;
+}
+.open .hamburger_bottom{
+    transform: rotate(45deg) translateY(6px) translate(6px);
+
+}

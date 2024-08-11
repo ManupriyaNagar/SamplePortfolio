@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+@media screen and (max-width: 600px) {
+    .parallax-wrapper {
+        width: 200px;
+        height: 200px;  
+        display: none;
+    }
+}
+.animation, .animation-layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation-layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation-layer.parallax {
+	position: fixed;
+}
+
+#one {
+    background-image: url(../assests/Home/E.jpg);
+}
+#two {
+    background-image: url(../assests/Home/E.jpg);
+}
+#three {
+    background-image: url(../assests/Home/E.jpg);
+}
+#four {
+    background-image: url(../assests/Home/E.jpg);
+}
+#five {
+    background-image: url(../assests/Home/E.jpg);
+}
+#six {
+    background-image: url(../assests/Home/E.jpg);
+}
+#seven {
+    background-image: url(../assests/Home/E.jpg);
+}
+#eight {
+    background-image: url(../assests/Home/E.jpg);
+}
+#nine {
+    background-image: url(../assests/Home/E.jpg);
+}
+#ten {
+    background-image: url(../assests/Home/E.jpg);
+}
+#eleven {
+    background-image: url(../assests/Home/E.jpg);
+}
+#twelve {
+    background-image: url(../assests/Home/E.jpg);
+}
+#thirteen {
+    background-image: url(../assests/Home/E.jpg);
+}
+
+.parallax-wrapper {
+    overflow-y: hidden;
+    /* z-index: 999; */
+}
+
+.parallax-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 120px; 
+    padding-bottom: 20px; 
+
+    margin-left: 6vw;
+    margin-right: 6vw;
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+
+/* .update {
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(/src/assets/generoImg.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+  } 
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }  */
+
+
+.animation, .animation-layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation-layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation-layer.parallax {
+	position: fixed;
+}
+
+#one {
+    background-image: url(../assests/Home/E.jpg);
+}
+#two {
+    background-image: url(../assests/Home/E.jpg);
+}
+#three {
+    background-image: url(../assests/Home/E.jpg);
+}
+#four {
+    background-image: url(../assests/Home/E.jpg);
+}
+#five {
+    background-image: url(../assests/Home/E.jpg);
+}
+#six {
+    background-image: url(../assests/Home/E.jpg);
+}
+#seven {
+    background-image: url(../assests/Home/E.jpg);
+}
+#eight {
+    background-image: url(../assests/Home/E.jpg);
+}
+#nine {
+    background-image: url(../assests/Home/E.jpg);
+}
+#ten {
+    background-image: url(../assests/Home/E.jpg);
+}
+#eleven {
+    background-image: url(../assests/Home/E.jpg);
+}
+#twelve {
+    background-image: url(../assests/Home/E.jpg);
+}
+#thirteen {
+    background-image: url(../assests/Home/E.jpg);
+}
+
+.parallax-wrapper {
+    overflow-y: hidden;
+    /* z-index: 999; */
+}
+
+.parallax-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 120px; 
+    padding-bottom: 20px; 
+
+    margin-left: 6vw;
+    margin-right: 6vw;
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+
+/* .update {
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(/src/assets/generoImg.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+  } 
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }  */
+
+@media screen and (max-width: 600px) {
+    .parallax-wrapper {
+        width: 200px;
+        height: 200px;  
+        display: none;
+    }
+}
